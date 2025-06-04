@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kaipara Clay</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<title>index</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: max) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/*<!-- style slideshow --->*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* N columns side by side (width = 99/n)*/
+.column {
+  float: left;
+  width: 14.28%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.55;
+}
+
+.active,
+.demo:hover {
+  opacity: 9;
+}
+/* end slideshow style*/
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Spectacular Translucence</h1>
+  <h4>Open Source Creation in Practice</h2>
+</header>
+<section>
+
+<!-- nav bar    --> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Concept<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_concepts.html">Concept Laundry</a></li>
+            <li><a href="_concepts.html#human_concepts">Human Concepts</a></li>
+            <li><a href="_concepts.html#concept_laundry">Concept Laundry</a></li>
+            <li><a href="_concepts.html#laundry_spectacular">Laundry Spectacular</a></li>
+            <li><a href="_concepts.html#spectacular_translucence">Spectacular Translucence</a></li>
+            <li><a href="_concepts.html#references">References</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Ceramics<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_ceramic.html">Ceramic Gallery</a></li>
+            <li><a href="_ceramic_BUFF.html">Buff Clay Gallery</a></li>
+            <li><a href="_ceramic_K.html">Kaipara Clay Gallery</a></li>
+            <li><a href="_ceramic_MB.html">Mairangi Bay Clay Gallery</a></li>
+            <li><a href="_ceramic_BUFF.html">Buff Clay Gallery</a></li>
+            <li><a href="_ceramic_BUFF_ContrastBowl.html">Buff Contrast Bowl</a></li>
+            <li><a href="_ceramic_BUFF_ContrastDripBowl.html">Buff Contrast Drip Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DarkBowl.html">Buff Dark Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DarkMug.html">Buff Dark Mug</a></li>
+            <li><a href="_ceramic_BUFF_DripBowl.html">Buff Drip Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DripMug.html">Buff Drip Mug</a></li>
+            <li><a href="_ceramic_BUFF_WaveBowl.html">Buff Wave Bowl</a></li>
+                        
+            <li><a href="_ceramic_K_DripMug.html">Kaipara Drip Mug</a></li>
+            <li><a href="_ceramic_K_ManMug.html">Kaipara Man Mug</a></li>
+            
+            <li><a href="_ceramic_MB_DripBowl.html">Mairangi Bay Drip Bowl</a></li>
+            <li><a href="_ceramic_MB_HPMug.html">Mairangi Bay Hokey Pokey Mug</a></li>
+            <li><a href="_ceramic_MB_TiltMug.html">Mairangi Bay Tilt Mug</a></li>
+            <li><a href="_ceramic_MB_BrokenHeartMug.html">Mairangi Bay Broken Heart Mug</a></li>
+
+
+             
+          </ul>  
+        </li>  
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Stone<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_stone.html">Stone Gallery</a></li>
+            <li><a href="_stone_Argillite.html">Argillite Whale Tails</a></li>
+            <li><a href="_stone_Breccia.html">Breccia Whale Tails</a></li>
+            <li><a href="_stone_DioriteTeardrop.html">Diorite Teardrop</a></li>
+            <li><a href="_stone_DioriteWhaleTail.html">diorite Whale Tails</a></li>
+            <li><a href="_stone_GreywackeConglomorate.html">Greywacke Conglomerate Whale Tails</a></li>
+            <li><a href="_stone_GreywackeConglomorateStingray.html">Greywacke Conglomerate Stingray</a></li>
+            <li><a href="_stone_Marble.html">Marble Whale Tails</a></li>
+            <li><a href="_stone_Rhyolite.html">Flow-Banded Rhyolite Whale Tails</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fabric <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_fabric.html">Fabric Overview</a></li>
+            <li><a href="_fabric_BlueYellowPants.html">Blue/Yellow Pants</a></li>
+            <li><a href="_fabric_SilverLeafWhiteWafflePants.html">Silver Leaf/White Waffle Duvet Pants</a></li>
+            <li><a href="_fabric_BlueWhiteShorts.html">Blue/White Shorts</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+<!-- / nav bar    -->
+
+<article>
+  <!-- Buff slideshow -->
+  <h3 style="text-align:center">Kaipara Clay Gallery</h3>
+  <p> This clay is special because it comes from my Grandad's farm up in Kaipara Flats.</p>
+  <p> Click on Images to see documentation for the works.</p>
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 15</div>
+      <img class="space" src="blank.png" style="width:30%">
+      <a href="_ceramic_K_DripMug.html"><img src="K_DripMug.jpg" style="width:37.5%"></a>
+      <img class="space" src="blank.png" style="width:30%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 15</div>
+      <img class="space" src="blank.png" style="width:30%">
+      <a href="_ceramic_K_MagMug.html"><img src="K_ManMug.jpg" style="width:37.5%"></a>
+      <img class="space" src="blank.png" style="width:30%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="K_DripMug.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kaipara Drip Mug">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="K_ManMug.jpg" style="width:100%" onclick="currentSlide(2)" alt="Kaipara Man Mug">
+      </div>
+    </div>
+  </div>
+  
+  <h3>Sourcing Kaipara Clay</h3>
+  <p>I collected this clay from the river that cuts through my Grandads farm.</p>
+  <p>I went as far as I could up one direction of the stream, I found some clay ‘nuggets’ by the water that when broken in half has some beautiful grey clay deposits inside, I collected a few of these and assembled them into a ball that I labelled as spot number 1. I also made a duck to test out the clay and I left it on the side of the river.</p>
+  <img src="K_source1.png" width=" 100%"></a>
+  <p>At spot number two I took some clay from the side where it meets the river and rolled it out into a tube and tied a knot which worked beautifully, I then dug into the clay and found a beautiful large deposit in the ground, I put this top piece to the side, removed the purer clay from the deposit into a few balled I labelled with a 2, before leaving I put all the excess clay back exactly where I found it so I didn’t disturb the spot too much.</p>
+  <img src="K_source2.png" width=" 100%"></a>
+  <p>I perfromed the same knot test on spot number 3 and it mostly worked so I figured it was worth taking from this spot as well for testings sake but the clay was quite rubbly so I only bothered with one ball.</p>
+  <img src="K_source3.png" width=" 100%"></a>
+  <p>I made ducks out of the clay from spots 2 and 3 and left them by the swimming hole to dry and enjoy the view. </p>
+  <img src="K_source4.jpg" width=" 100%"></a>
+  <h3>Notes on Harvesting Clay from a Creek</h3>
+  <p>I found a youtube video from Smallwood Arts called <a href="https://www.youtube.com/watch?v=ifi_qQZqMrw">Clay: from Creek to Creation</a> which I found extremely helpful in knowing what to look for on my first time harvesting. These are the notes I took in preparation for my first harvesting adventure!</a></p>
+  <img src="K_source.jpg" width=" 100%"></a>
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  
+<footer>
+  <p>Lydia Tyler-Davies  (2024)</p>
+  <a href="_ceramic_K.html"> return to top</a>
+</footer>
+
+</body>
+</html>
+

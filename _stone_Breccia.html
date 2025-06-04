@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stone</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<title>index</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: max) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/*<!-- style slideshow --->*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* N columns side by side (width = 99/n)*/
+.column {
+  float: left;
+  width: 5.5%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.55;
+}
+
+.active,
+.demo:hover {
+  opacity: 9;
+}
+/* end slideshow style*/
+</style>
+</head>
+<body>
+<header>
+  <h1>Spectacular Translucence</h1>
+  <h4>Open Source Creation in Practice</h2>
+</header>
+<section>
+<!-- nav bar    --> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Concept<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_concepts.html">Concept Laundry</a></li>
+            <li><a href="_concepts.html#human_concepts">Human Concepts</a></li>
+            <li><a href="_concepts.html#concept_laundry">Concept Laundry</a></li>
+            <li><a href="_concepts.html#laundry_spectacular">Laundry Spectacular</a></li>
+            <li><a href="_concepts.html#spectacular_translucence">Spectacular Translucence</a></li>
+            <li><a href="_concepts.html#references">References</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Ceramics<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_ceramic.html">Ceramic Gallery</a></li>
+            <li><a href="_ceramic_BUFF.html">Buff Clay Gallery</a></li>
+            <li><a href="_ceramic_K.html">Kaipara Clay Gallery</a></li>
+            <li><a href="_ceramic_MB.html">Mairangi Bay Clay Gallery</a></li>
+            <li><a href="_ceramic_BUFF.html">Buff Clay Gallery</a></li>
+            <li><a href="_ceramic_BUFF_ContrastBowl.html">Buff Contrast Bowl</a></li>
+            <li><a href="_ceramic_BUFF_ContrastDripBowl.html">Buff Contrast Drip Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DarkBowl.html">Buff Dark Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DarkMug.html">Buff Dark Mug</a></li>
+            <li><a href="_ceramic_BUFF_DripBowl.html">Buff Drip Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DripMug.html">Buff Drip Mug</a></li>
+            <li><a href="_ceramic_BUFF_WaveBowl.html">Buff Wave Bowl</a></li>
+                        
+            <li><a href="_ceramic_K_DripMug.html">Kaipara Drip Mug</a></li>
+            <li><a href="_ceramic_K_ManMug.html">Kaipara Man Mug</a></li>
+            
+            <li><a href="_ceramic_MB_DripBowl.html">Mairangi Bay Drip Bowl</a></li>
+            <li><a href="_ceramic_MB_HPMug.html">Mairangi Bay Hokey Pokey Mug</a></li>
+            <li><a href="_ceramic_MB_TiltMug.html">Mairangi Bay Tilt Mug</a></li>
+            <li><a href="_ceramic_MB_BrokenHeartMug.html">Mairangi Bay Broken Heart Mug</a></li>
+
+
+             
+          </ul>  
+        </li>  
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Stone<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_stone.html">Stone Gallery</a></li>
+            <li><a href="_stone_Argillite.html">Argillite Whale Tails</a></li>
+            <li><a href="_stone_Breccia.html">Breccia Whale Tails</a></li>
+            <li><a href="_stone_DioriteTeardrop.html">Diorite Teardrop</a></li>
+            <li><a href="_stone_DioriteWhaleTail.html">diorite Whale Tails</a></li>
+            <li><a href="_stone_GreywackeConglomorate.html">Greywacke Conglomerate Whale Tails</a></li>
+            <li><a href="_stone_GreywackeConglomorateStingray.html">Greywacke Conglomerate Stingray</a></li>
+            <li><a href="_stone_Marble.html">Marble Whale Tails</a></li>
+            <li><a href="_stone_Rhyolite.html">Flow-Banded Rhyolite Whale Tails</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fabric <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_fabric.html">Fabric Overview</a></li>
+            <li><a href="_fabric_BlueYellowPants.html">Blue/Yellow Pants</a></li>
+            <li><a href="_fabric_SilverLeafWhiteWafflePants.html">Silver Leaf/White Waffle Duvet Pants</a></li>
+            <li><a href="_fabric_BlueWhiteShorts.html">Blue/White Shorts</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+<!-- / nav bar    -->
+
+<article>
+  <h1>Breccia<a href="_stone_Breccia.html#1">[1]</a> Whale Tails</h1>
+  <img src="Stone_Breccia_WhaleTail.png" style="width:100%">
+  <p>Documentation for creating Whale Tail Necklaces Breccia<a href="_stone_Breccia.html#2">[2]</a></p>
+  <h3>Materials</h3>
+  <p>- Breccia found in Queenstown on Lake Wakatipu near Jacks Point/Robbie’s beach on waterfront.</p>  
+  <p>- ELAM's Combined LAPIDARY TRIM SAW AND CABBING MACHINE!</p>
+  <img src="Stone_Machine1.png" style="width:100%">
+  <h3>Process</h3>
+  <p>Made using ELAM’s Combined LAPIDARY TRIM SAW AND CABBING MACHINE, and their stone hand drill with diamond fitting.</p>
+    
+  <p>Cut purple dotted lines (1,2) with trim saw for basic shape and smooth to green curves (3) with cabbing machine.</p>
+  <img src="Stone_WhaleTail1.png" style="width:40%"> <img src="Stone_WhaleTail2.png" style="width:50%"> 
+  <p>Polish the whole surface from 100 grit to 600 grit with cabbing machine and 100-600grit polishing paperMake hole through the red circle (3) with drill piece to finish.</p>
+  <img src="Stone_WhaleTail3.png" style="width:60%"> <img src="Stone_WhaleTail4.png" style="width:30%"> 
+  <h3>Labour</h3>
+  <p>1 session to cut and smooth edges, another session for hole and polish, 1hr total.
+    Additionally help from Elam staff to maintain, assist and allow use of workshop.</p>
+  <h4>Notes</h4>
+  <p id="1">[1]: Breccia Sporadically occurs across the country. <a href="https://rocksminerals.flexiblelearning.auckland.ac.nz/rocks/breccia.html">https://rocksminerals.flexiblelearning.auckland.ac.nz/rocks/breccia.html</a></p>
+  <p id="2">[2]: It has many different ways of presenting as it is a conglomerate<a href="_stone_Breccia.html#3">[3]</a> with defining clasts<a href="https://tumblestoneblog.wordpress.com/category/beach-stones/">https://tumblestoneblog.wordpress.com/category/beach-stones/</a>.</p>
+  <p id="3">[3]: See Conglomorate <a href="https://rocksminerals.flexiblelearning.auckland.ac.nz/rocks/conglomerate.html">https://rocksminerals.flexiblelearning.auckland.ac.nz/rocks/conglomerate.html</a></p>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  
+<footer>
+  <p>Lydia Tyler-Davies  (2024)</p>
+  <a href="_stone.html"> return to top</a>
+</footer>
+
+</body>
+</html>
+
