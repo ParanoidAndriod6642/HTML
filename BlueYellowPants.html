@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<title>index</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: max) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Open Source Creation</h2>
+</header>
+<section>
+
+<!-- nav bar    --> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Concept<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="concepts.html">Concept Laundry</a></li>
+            <li><a href="concepts.html#human_concepts">Human Concepts</a></li>
+            <li><a href="concepts.html#concept_laundry">Concept Laundry</a></li>
+            <li><a href="concepts.html#laundry_spectacular">Laundry Spectacular</a></li>
+            <li><a href="concepts.html#spectacular_translucence">Spectacular Translucence</a></li>
+            <li><a href="concepts.html#references">References</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fabric <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="fabric.html">Fabric</a></li>
+            <li><a href="BlueYellowPants.html">Blue/Yellow Pants</a></li>
+            <li><a href="SilverLeafWhiteWafflePants.html">Silver Leaf/White Waffle Duvet Pants</a></li>
+            <li><a href="BlueWhiteShorts.html">Blue/White Shorts</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+<!-- / nav bar    --> 
+<article>
+  <h1 id="top">Blue/White Shorts</h3>
+  <p>Documentation on creation of Blue/White Shorts</p>
+  <img src="fabric/shortsB-W.png" alt="Girl in a jacket" width=100% height=auto>
+  <h2>Materials</h2>
+<p>- I found a flowy shirt<a href="BlueWhiteShorts.html#1">[1]</a> at Save Mart and figured I could turn it into some funky shorts.</p>
+<p></p>- The shirt was semi transparent so I also used some scrap from the duvet<a href="BlueWhiteShorts.html#2">[2]</a> as backing
+<p>- Elastic (bought from spotlight, need to find second hand elastic supply in the future)</p>
+<p>- My 12 year old Bernina Sewing Machine and Thread.</p>
+<h2>Pattern</h2>
+<img src="fabric/PantsPlan.jpg" alt="Pants Plan" width=100% height=auto)
+<h3>Notes</h3>
+<p id=1>[1]: The shirt is not nearly as convenient as the duvet, I had to cut the shirt up and patchwork it onto the duvet backing, I took a painstaking amount of time to make each half of the shorts symmetrical so the patchwork seams would be even.</p>
+<p id=2>[2]: see <a href="https://github.com/ParanoidAndriod6642/SilverLeaf-WhiteWaffle-Pants/tree/main?tab=readme-ov-file">[github]</a> for image of duvet
+    
+  </article>
+</section>
+
+<footer>
+  <p>Lydia Tyler-Davies  (2024)</p>
+  <a href="BlueYellowPants.html"> return to top</a>
+</footer>
+
+</body>
+</html>
+
