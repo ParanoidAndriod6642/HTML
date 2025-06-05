@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kaipara Clay</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<title>index</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: max) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/*<!-- style slideshow --->*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* N columns side by side (width = 99/n)*/
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.55;
+}
+
+.active,
+.demo:hover {
+  opacity: 9;
+}
+/* end slideshow style*/
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Spectacular Translucence</h1>
+  <h4>Open Source Creation in Practice</h2>
+</header>
+<section>
+
+<!-- nav bar    --> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Concept<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_concepts.html">Concept Laundry</a></li>
+            <li><a href="_concepts.html#human_concepts">Human Concepts</a></li>
+            <li><a href="_concepts.html#concept_laundry">Concept Laundry</a></li>
+            <li><a href="_concepts.html#laundry_spectacular">Laundry Spectacular</a></li>
+            <li><a href="_concepts.html#spectacular_translucence">Spectacular Translucence</a></li>
+            <li><a href="_concepts.html#references">References</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Ceramics<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_ceramic.html">Ceramic Gallery</a></li>
+            <li><a href="_ceramic_BUFF.html">Buff Clay Gallery</a></li>
+            <li><a href="_ceramic_K.html">Kaipara Clay Gallery</a></li>
+            <li><a href="_ceramic_MB.html">Mairangi Bay Clay Gallery</a></li>
+            <li><a href="_ceramic_BUFF.html">Buff Clay Gallery</a></li>
+            <li><a href="_ceramic_BUFF_ContrastBowl.html">Buff Contrast Bowl</a></li>
+            <li><a href="_ceramic_BUFF_ContrastDripBowl.html">Buff Contrast Drip Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DarkBowl.html">Buff Dark Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DarkMug.html">Buff Dark Mug</a></li>
+            <li><a href="_ceramic_BUFF_DripBowl.html">Buff Drip Bowl</a></li>
+            <li><a href="_ceramic_BUFF_DripMug.html">Buff Drip Mug</a></li>
+            <li><a href="_ceramic_BUFF_WaveBowl.html">Buff Wave Bowl</a></li>
+                        
+            <li><a href="_ceramic_K_DripMug.html">Kaipara Drip Mug</a></li>
+            <li><a href="_ceramic_K_ManMug.html">Kaipara Man Mug</a></li>
+            
+            <li><a href="_ceramic_MB_DripBowl.html">Mairangi Bay Drip Bowl</a></li>
+            <li><a href="_ceramic_MB_HPMug.html">Mairangi Bay Hokey Pokey Mug</a></li>
+            <li><a href="_ceramic_MB_TiltMug.html">Mairangi Bay Tilt Mug</a></li>
+            <li><a href="_ceramic_MB_BrokenHeartMug.html">Mairangi Bay Broken Heart Mug</a></li>
+
+
+             
+          </ul>  
+        </li>  
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Stone<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_stone.html">Stone Gallery</a></li>
+            <li><a href="_stone_Argillite.html">Argillite Whale Tails</a></li>
+            <li><a href="_stone_Breccia.html">Breccia Whale Tails</a></li>
+            <li><a href="_stone_DioriteTeardrop.html">Diorite Teardrop</a></li>
+            <li><a href="_stone_DioriteWhaleTail.html">diorite Whale Tails</a></li>
+            <li><a href="_stone_GreywackeConglomorate.html">Greywacke Conglomerate Whale Tails</a></li>
+            <li><a href="_stone_GreywackeConglomorateStingray.html">Greywacke Conglomerate Stingray</a></li>
+            <li><a href="_stone_Marble.html">Marble Whale Tails</a></li>
+            <li><a href="_stone_Rhyolite.html">Flow-Banded Rhyolite Whale Tails</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fabric <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="_fabric.html">Fabric Overview</a></li>
+            <li><a href="_fabric_BlueYellowPants.html">Blue/Yellow Pants</a></li>
+            <li><a href="_fabric_SilverLeafWhiteWafflePants.html">Silver Leaf/White Waffle Duvet Pants</a></li>
+            <li><a href="_fabric_BlueWhiteShorts.html">Blue/White Shorts</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+<!-- / nav bar    -->
+
+<article>
+  <!-- slideshow -->
+  <h3 style="text-align:center">Kaipara Clay Drip Mug</h3>
+  <p> Admittedly, I layerd on the Hokey Pokey Glaze<a href="_ceramic_K_Dripmug.html#1">[1]</a> a little too thick which resulted in these dramaic drips down to the foot of the mug. Compared to the <a href="_ceramic_MB.html">Mairangi Bay</a> clay the glaze set alot faster when dunked so I ended up with a very thick layer with teh same amount of exposure. Amazing how differnt<a href="_ceramic_K_DripMug.html#2">[2]</a> two clays can act with glazes!</p>
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext"> 1/4</div>
+      <img class="space" src="blank.png" style="width:30%">
+      <a href="_ceramic_K_DripMug.html"><img src="K_DripMug.jpg" style="width:37.5%"></a>
+      <img class="space" src="blank.png" style="width:30%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"> 2/4 </div>
+      <img class="space" src="blank.png" style="width:30%">
+      <a href="_ceramic_K_DripMug1.html"><img src="K_DripMug1.jpg" style="width:37.5%"></a>
+      <img class="space" src="blank.png" style="width:30%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"> 3/4 </div>
+      <img class="space" src="blank.png" style="width:30%">
+      <a href="_ceramic_K_DripMug2.html"><img src="K_DripMug2.jpg" style="width:37.5%"></a>
+      <img class="space" src="blank.png" style="width:30%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"> 4/4</div>
+      <img class="space" src="blank.png" style="width:30%">
+      <a href="_ceramic_K_DripMug3.html"><img src="K_DripMug3.jpg" style="width:37.5%"></a>
+      <img class="space" src="blank.png" style="width:30%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="K_DripMug.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kaipara Drip Mug (Side View)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="K_DripMug1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Kaipara Drip Mug (Top View)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="K_DripMug2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Kaipara Drip Mug (Side View)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="K_DripMug3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Kaipara Drip Mug (Bottom View)">
+      </div>
+    </div>
+  </div>
+  <!-- end slideshow-->
+  <h3>Materials</h3>
+  <p>- Kaipara Clay (harvested and processed by me)</p>
+  <p>- Hokey Pokey Glaze<a href="_ceramic_K_DripMug.html#1">[1]</a> from ELAM.</p>
+  <p>- ELAM Ceramic Workshop (manual pottery wheel) and ELAM's amazing clay technician sorting out everything kiln related for me.</p>
+  <br>
+
+  <h3>Process</h3>
+  <h4>Harvest<a href="_ceramic_K_DripMug.html#3">[3]</a></h4>
+  <p>Needed to go out and <a href="_ceramic_K.html#Harvest">harvest</a> the clay from kaipara flats.</p>
+  <img src="K_source2.png" style="width:100%">
+  <p>Luckily, it was malleable enough when wet that it wasnt necessary to dry the clay out and further process it in order to make this mug.</p>
+  <br>
+
+  <h4>Get the air out</h4>
+  <p>Pockets of air are going to make throwing harder and create possible eruptions of air or cracks once the work has dried and gone in the kiln.</p>
+  <p>To avoid this we want to Throw the clay on the table a few times. Since the clay was possibly too malleable and sticky i did this on the plaster board to help toughen it up a bit before throwing.</p>
+  <p>Once you have let out some anger by throwing the clay into the table repeatedly we can begin to wedge the clay.</p>
+  <video width=100% autoplay loop muted>
+    <source src="_ceramic_process_Ramshead.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+  <p>The goal of ramshead wedging is to even more throroughly get the air out of the clay by repeatedly pushing it into itself. Unfortunately i still fold my clay a little and its not as narrow as id liek which would be more effective at removing air bubbles, but I'm relatively new to clay so it's good enough for now.</p>
+  <br> 
+
+  <h4>Preparation</h4>
+  <img src="_ceramic_process1.png" style="width:100%">
+  <p>since this is a mug I will prepare some mug sized lumps and roll out the extra clay for the approbriate number of handles.</p>
+  <br>
+
+  <h4>Throwing</h4>
+  <p>Turn wheel counter clockwise if right-handed and clockwise if left-handed.</p>
+  <br>
+
+  <h5><i>Centre the clay on the wheel</i></h5>
+  <p>Centre clay as much as possible with dry hands. Use water and press down as needed (sometimes I need to smooth out the clay touching the wheel to achive a good stick) to make sure its properly connected the turntable.</p>
+  <p>If it’s not feeling even I will bring up the clay by pulling it inwards and upwards and squish it back down a few times and repeat until it feels more even.</p>
+  <video width=100% controls muted>
+    <source src="_ceramic_process_Centre.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+  <p>Grip over clay with hand steady to even it out.</p>
+  <p>Use palm/foot of hand to even up the sides and find the middle of the clay</p>
+  <video width=100% autoplay loop muted>
+    <source src="_ceramic_process_Centre0.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+  <p>Once clay is centred I find the middle by putting a finger ontop and make a little groove to catch water.</p>
+  <br>
+
+  <h5><i>Making a hole</i></h5> 
+  <video width=100% controls muted>
+    <source src="_ceramic_process_Hole0.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video> 
+  <p>adding more water into the groove I press down into centre to create a hole (leaving room for the bottom) I brace my thumb going down with my outside hand to ensure it isn’t moving.</p>  
+  <video width=100% autoplay loop muted>
+    <source src="_ceramic_process_Hole.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+  
+  <h5><i>Bring up the sides</i></h5>
+  <p>Bring up the walls (resting inner hand ontop of outer hand for stability to achieve an even distribution of clay). If the top of the vessel is lopsided (this will be because our hole wasnt perfectly centre or hands wernt steady when brinign up the walls, but that is okay!) we can use the wire to even up the top by cutting off the exccess while its turning.</p>  
+  <video width=100% controls muted>
+    <source src="_ceramic_process_walls.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+  <p>We can leave it like this or use a tool (kidney bean) to evenly curve the sides.</p>  
+  <video width=100% controls muted>
+    <source src="_ceramic_process_Tool.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+
+  <br>
+  <h5><i>Final touches!</i></h5>
+  <p>Smooth with sponge and soak up excess water.</p>
+  <p>Leave to dry for a bit.</p>
+  <p>To attach handle, make scratches on the mug where the handle is going and on the handle, add some slop (watered down clay) and gently press into place, smoothe down excess clay into the mug.</p>  
+  <video width=100% controls muted>
+    <source src="_ceramic_process_Handle.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+  <p>If the handle hasn’t been left to dry in the right position for long enough or is too droopy I find it handy to dry the mug upside down so gravity is working with the desired direction of the handle.</p>  
+  <p>Use wire to remove the vessel from the wheel.</p>
+  <video width=100% controls muted>
+    <source src="_ceramic_process_Wire.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+  <p>I alternate between putting the handle on at this stage and leaving it to dry for a bit before using wire to seperate mug from the wheel</p>
+  <p>Or using the wire to seperate the vessel from the wheel before attaching the handle on a drying board.</p>    
+  
+  <h4>Drying and Bisque Firing</h4>
+  <p>Subject to how thick the clay is it will take a decent amount of time to dry, but this drying is crucial so it fires well in the kiln. When the clay is dry it will feel alot harder/brittle and it will have shrunk a little bit (since the water has evaporated). You should also notice a change in colour.</p>
+
+  <h4>Glazing and Glaze Firing</h4>
+  <p>I used Abbots Hokey Pokey<a href="_ceramic_K_DripMug#1">[1]</a> before using a glaze you need to make sure its adequately mixed to avoid lumps. To coat the inside I poured glaze so it filled up the vessel and poured it out after a few seconds. To coat the outside I held my mug from the bottom and submerged it in the glaze for a few seconds before bringing it out, letting it drip and setting down to dry which happens really quickly compared to the clay. At tis stage it can go in teh queue for a glaze firing!</p>
+  
+  <h3>Notes</h3>
+  <p id="1">[1] ELAM use Abbots Glazes supplied by CCG, I used <a href="https://www.ccg.co.nz/craft/product/11961/abbots-dry-powder-glaze-hokey-pokey">Hokey Pokey</a> on this mug. Also see: <a href="https://www.ccg.co.nz/cdn/images/productdocument/Abbots-Booklet-210213-2.pdf?srsltid=AfmBOor5Lgt97624srgZ02N9V7YT-i6of2wW26C-LcE4QbKbAxAWAkvg"><Abbots/a>Mid-fire glaze handbook</a> page 25</p>
+  <p id="2">[2] See Mairangi Bay Mug in comparison <a href="_ceramic_MB_HPMug.html">here</a> for how the glaze acts differently between different clays</p>
+  <p id="3">[3] Harvest info see <a href="_ceramic_K.html#Harvest">Kaipara Clay</a>.</p>
+  
+  
+  
+  <!--gallery script-->>
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  
+<footer>
+  <p>Lydia Tyler-Davies  (2024)</p>
+  <a href="_ceramic_K.html"> return to top</a>
+</footer>
+
+</body>
+</html>
+
