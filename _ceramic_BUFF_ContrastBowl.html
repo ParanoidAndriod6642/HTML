@@ -7,154 +7,150 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-<title>index</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f6f6f6;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  width: auto;
-  height: auto;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
-/* Style the footer */
-footer {
-  background-color: #ccc;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: max) {
-  nav, article {
-    width: 100%;
-    height: auto;
+  <style>
+  * {
+    box-sizing: border-box;
   }
-}
-/*<!-- style slideshow --->*/
 
-* {
-  box-sizing: border-box;
-}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+  }
 
-img {
-  vertical-align: middle;
+  /* Style the header */
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
 
-}
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
 
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
+  article {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+  /* Style the footer */
+  footer {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: max) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  /*<!-- style slideshow --->*/
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: #ccc;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+  img {
+    vertical-align: middle;
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+  }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
 
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
 
-/* N columns side by side (width = 99/n)*/
-.column {
-  float: left;
-  width: 25%;
-}
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
 
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.55;
-}
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
 
-.active,
-.demo:hover {
-  opacity: 9;
-}
-/* end slideshow style*/
-</style>
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* N columns side by side (width = 99/n)*/
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.55;
+  }
+
+  .active,
+  .demo:hover {
+    opacity: 9;
+  }
+  /* end slideshow style*/
+  </style>
 </head>
 <body>
 
@@ -246,8 +242,8 @@ img {
 
 <article>
   <!-- slideshow -->
-  <h3 style="text-align:center">Kaipara Clay Drip Mug</h3>
-  <p> Admittedly, I layerd on the Hokey Pokey Glaze<a href="_ceramic_K_Dripmug.html#1">[1]</a> a little too thick which resulted in these dramaic drips down to the foot of the mug. Compared to the <a href="_ceramic_MB.html">Mairangi Bay</a> clay the glaze set alot faster when dunked so I ended up with a very thick layer with teh same amount of exposure. Amazing how differnt<a href="_ceramic_K_DripMug.html#2">[2]</a> two clays can act with glazes!</p>
+  <h3 style="text-align:center">Buff Clay Contrast Bowl</h3>
+  <p></p>
   <div class="container">
     <div class="mySlides">
       <div class="numbertext"> 1/4</div>
@@ -301,23 +297,18 @@ img {
   </div>
   <!-- end slideshow-->
   <h3>Materials</h3>
-  <p>- Kaipara Clay (harvested and processed by me)</p>
-  <p>- Hokey Pokey Glaze<a href="_ceramic_K_DripMug.html#1">[1]</a> from ELAM.</p>
+  <p>- Buff Clay (bought from ELAM crative store)</p>
+  <p>- Hokey Pokey and Tenmoku Glaze<a href="_ceramic_BUFF_ContrastBowl#1">[1]</a> from ELAM.</p>
   <p>- ELAM Ceramic Workshop (manual pottery wheel) and ELAM's amazing clay technician sorting out everything kiln related for me.</p>
   <br>
 
   <h3>Process</h3>
-  <h4>Harvest<a href="_ceramic_K_DripMug.html#3">[3]</a></h4>
-  <p>Needed to go out and <a href="_ceramic_K.html#Harvest">harvest</a> the clay from kaipara flats.</p>
-  <img src="K_source2.png" style="width:100%">
-  <p>Luckily, it was malleable enough when wet that it wasnt necessary to dry the clay out and further process it in order to make this mug.</p>
-  <br>
-
   <h4>Get the air out</h4>
   <p>Pockets of air are going to make throwing harder and create possible eruptions of air or cracks once the work has dried and gone in the kiln.</p>
   <p>To avoid this we want to Throw the clay on the table a few times. Since the clay was possibly too malleable and sticky i did this on the plaster board to help toughen it up a bit before throwing.</p>
   <p>Once you have let out some anger by throwing the clay into the table repeatedly we can begin to wedge the clay.</p>
   <video width=100% autoplay loop muted>
+    <source src="_ceramic_process_Ramshead.mp4" type="video/mp4">
     <source src="_ceramic_process_Ramshead.mp4" type="video/ogg">
     Your browser does not support HTML video.
   </video>
@@ -325,10 +316,7 @@ img {
   <br> 
 
   <h4>Preparation</h4>
-  <img src="_ceramic_process1.png" style="width:100%">
-  <p>since this is a mug I will prepare some mug sized lumps and roll out the extra clay for the approbriate number of handles.</p>
-  <br>
-
+  <p>Since this is a bowl we just need a lump of clay to put on the wheel.</p>
   <h4>Throwing</h4>
   <p>Turn wheel counter clockwise if right-handed and clockwise if left-handed.</p>
   <br>
@@ -376,31 +364,20 @@ img {
   <h5><i>Final touches!</i></h5>
   <p>Smooth with sponge and soak up excess water.</p>
   <p>Leave to dry for a bit.</p>
-  <p>To attach handle, make scratches on the mug where the handle is going and on the handle, add some slop (watered down clay) and gently press into place, smoothe down excess clay into the mug.</p>  
-  <video width=100% controls muted>
-    <source src="_ceramic_process_Handle.mp4" type="video/ogg">
-    Your browser does not support HTML video.
-  </video>
-  <p>If the handle hasn’t been left to dry in the right position for long enough or is too droopy I find it handy to dry the mug upside down so gravity is working with the desired direction of the handle.</p>  
-  <p>Use wire to remove the vessel from the wheel.</p>
   <video width=100% controls muted>
     <source src="_ceramic_process_Wire.mp4" type="video/ogg">
     Your browser does not support HTML video.
   </video>
-  <p>I alternate between putting the handle on at this stage and leaving it to dry for a bit before using wire to seperate mug from the wheel</p>
-  <p>Or using the wire to seperate the vessel from the wheel before attaching the handle on a drying board.</p>    
+  <p>After the vessel was dried I used a tool to cut off angles at the bottom of the bowl, also to make a concave curve on the foot of a bowl.</p>    
   
   <h4>Drying and Bisque Firing</h4>
   <p>Subject to how thick the clay is it will take a decent amount of time to dry, but this drying is crucial so it fires well in the kiln. When the clay is dry it will feel alot harder/brittle and it will have shrunk a little bit (since the water has evaporated). You should also notice a change in colour.</p>
 
   <h4>Glazing and Glaze Firing</h4>
-  <p>I used Abbots Hokey Pokey<a href="_ceramic_K_DripMug#1">[1]</a> before using a glaze you need to make sure its adequately mixed to avoid lumps. To coat the inside I poured glaze so it filled up the vessel and poured it out after a few seconds. To coat the outside I held my mug from the bottom and submerged it in the glaze for a few seconds before bringing it out, letting it drip and setting down to dry which happens really quickly compared to the clay. At tis stage it can go in teh queue for a glaze firing!</p>
+  <p>I used Abbots Hokey Pokey<a href="_ceramic_K_DripMug#1">[1]</a> before using a glaze you need to make sure its adequately mixed to avoid lumps. To coat the inside I poured glaze so it filled up the vessel and poured it out after a few seconds. To coat the outside I held my mug from the bottom and submerged it in the glaze for a few seconds before bringing it out, letting it drip and setting down to dry which happens really quickly compared to the clay. At tis stage it can go in the queue for a glaze firing!</p>
   
   <h3>Notes</h3>
-  <p id="1">[1] ELAM use Abbots Glazes supplied by CCG, I used <a href="https://www.ccg.co.nz/craft/product/11961/abbots-dry-powder-glaze-hokey-pokey">Hokey Pokey</a> on this mug. Also see: <a href="https://www.ccg.co.nz/cdn/images/productdocument/Abbots-Booklet-210213-2.pdf?srsltid=AfmBOor5Lgt97624srgZ02N9V7YT-i6of2wW26C-LcE4QbKbAxAWAkvg"><Abbots/a>Mid-fire glaze handbook</a> page 25</p>
-  <p id="2">[2] See Mairangi Bay Mug in comparison <a href="_ceramic_MB_HPMug.html">here</a> for how the glaze acts differently between different clays</p>
-  <p id="3">[3] Harvest info see <a href="_ceramic_K.html#Harvest">Kaipara Clay</a>.</p>
-  
+  <p id="1">[1] ELAM use Abbots Glazes supplied by CCG, I used <a href="https://www.ccg.co.nz/craft/product/11961/abbots-dry-powder-glaze-hokey-pokey">Hokey Pokey</a> and <a href="https://www.ccg.co.nz/craft/product/11949/abbots-dry-powder-glaze-tenmoku">Tenmoku</a> on this mug. Also see: <a href="https://www.ccg.co.nz/cdn/images/productdocument/Abbots-Booklet-210213-2.pdf?srsltid=AfmBOor5Lgt97624srgZ02N9V7YT-i6of2wW26C-LcE4QbKbAxAWAkvg"><Abbots/a>Mid-fire glaze handbook</a> page 25 (Hokey Pokey) and page 36 (Tenmoku)</p>
   
   
   <!--gallery script-->>
